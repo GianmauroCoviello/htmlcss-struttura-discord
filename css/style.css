@@ -71,7 +71,16 @@ footer{
     background-color: rgba(0, 0, 0, 0.774);
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
+}
+.row-footer{
+    width: 800px;
+    height: 30px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+
+
 }
 
 
@@ -139,4 +148,12 @@ footer{
     background-color: rgb(16, 171, 223);
     border: 1px dashed white;
     height: 348px;
+}
+.col-20{
+    border: 1px dashed black;
+    height: 17px;
+    align-self: center;
+    background-color: pink;
+    font-size: 12px;
+    padding-bottom: 5px 4px 6px 4px;
 }
