@@ -4,3 +4,44 @@
     box-sizing: border-box;
 }
 /* UTILITIES */
+
+.container-header{
+    height: 50px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row-header{
+    width: 60%;
+    height: 30px;
+    background-color: rgb(182, 166, 28);
+    border: 1px dashed black;
+    display: flex;
+    justify-content: space-between;
+
+}
+.col-20{
+    width: 20%;
+    border: 1px dashed black;
+    padding: 5px;
+
+}
+.col-60{
+    width: 60%;
+    border: 1px dashed black;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+/* END UTILITIES */
+#login{
+    text-align: end;
+}
