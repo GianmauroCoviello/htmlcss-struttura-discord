@@ -19,7 +19,7 @@ header{
 .row-header{
     width: 800px;
     height: 30px;
-    background-color: rgb(182, 166, 28);
+    background-color: rgb(211, 193, 30);
     border: 1px dashed black;
     display: flex;
     justify-content: space-between;
@@ -91,7 +91,7 @@ footer{
 #col-20{
     width: 20%;
     border: 1px dashed black;
-    padding: 5px;
+    padding: 3px;
 
 }
 #col-60{
@@ -158,4 +158,7 @@ footer{
     padding: 0 5px;
     
     
+}
+p{
+    font-family: 'Montserrat', sans-serif;
 }
